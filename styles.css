@@ -1,0 +1,205 @@
+body{
+  width: 100%;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background-image: url(sliced.jpg);
+  }
+  header{
+    display: flex;
+    font-size: 150%;
+    color: lightcoral;
+    justify-content: center;
+    
+    height: 50px;
+    width: 30%;
+    margin-left: 35%;
+    align-items: center;
+  }
+  
+  
+  #input{
+    display: flex;
+    margin-left: 42%;
+    background-color: transparent;
+    flex-wrap: wrap;
+    
+    border-top-style: none ;
+    border-left-style: none ;
+    border-right-style: none ;
+    
+    width: 20em;
+    margin-top: 2%;
+   
+    height: 3em;
+    font-size: 15px;
+    font-weight: bold;
+    
+    
+  }
+  #bill {
+    justify-content: center;
+    
+   
+    
+    color: rgb(239, 151, 255);
+    display: flex;
+  
+    font-weight: 900;
+    flex-wrap: wrap;
+    font-size: 25px;
+    padding: 40px 0;
+    margin-left: 7%;
+   
+    background-repeat: no-repeat;
+    
+  }
+
+  #bill input{
+    width: 10%;
+    border: none;
+    color: #f00000;
+    font-size: 25px;
+    
+    position: relative;
+    left: 3px;
+    font-family: auto;
+    background-color: inherit;
+  }
+  .price{
+    background-color: #0025faa8;
+    color: #e69b06;
+    padding: 10px 0;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    text-decoration-style: dotted;
+  }
+  .pro img{
+    height: 90px;
+    width: 70%;
+  }
+  .pro{
+    display:flex;
+    width: fit-content;
+    
+  
+  }
+  .pro figure{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: transparent;
+  border: 1px dotted rgb(0, 64, 75);
+  padding-bottom: 20px;
+color: rgb(226, 236, 226);
+  margin: 30px;
+  font-weight: 100;
+  }
+  .pro img{ height:60% ;}
+  #fsh{
+    display: flex;
+    justify-content: center;
+    color: black;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+   flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  #fsh figcaption{
+color: rgb(255, 255, 255);
+ font-size: 150%;
+font-weight: 700;
+font-style: oblique;
+background-color: rgb(37, 44, 37);
+font-family: monospace; }
+  
+  #fsh p{
+  margin:0;
+  
+  }
+  
+  /* For buttons */
+  div.buy {
+    display: flex;
+    
+    justify-content: center;
+    margin: 0;
+    height: 20px;
+    z-index: 1;
+    border: none;
+    text-align: center;
+    border-radius: 0px;
+  }
+  
+  .buy  input{ color: rgb(243, 243, 243);
+  font-family: fantasy;
+  border: none;
+}
+
+  .buy button {
+    display: inline-block;
+    margin: 0px;
+    width: 30px;
+
+    text-align: center;
+    border: none;
+    color: rgb(238, 238, 238);
+    font-size: 1em;
+    height: 23px;
+    padding: 0px;
+    background-color: rgb(8, 51, 40);
+    outline: none;
+    
+  }
+  
+  .buy button:hover {
+    cursor: pointer;
+    color: rgb(9, 250, 250);
+    background-color: rgb(255, 255, 255);
+    
+  }
+  
+  div.buy .decrease {
+    margin-right: 0px;
+    border: none;
+    
+  }
+  
+  div.buy .increase {
+    margin-left: 0px;
+    border: none;
+    
+  }
+  
+  .buy input {
+    text-align: center;
+    border: none;
+  
+    margin: 0px;
+    padding-left: 15px;
+    background-color: rgba(9, 14, 14, .500);
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+   
+    
+  
+  }
+
+span{
+  color: #fbfbfb;
+
+  font-size: larger;
+  font-family: fantasy;
+}
+  
+
+ 
